@@ -1,0 +1,304 @@
+body {
+
+    height: 967px;
+    background: linear-gradient(180deg, rgba(30, 55, 116, 0.96) 0%, #FFFFFF 100%);
+    margin-top: 0rem;
+    margin-right: 0rem;
+
+}
+
+.container-nav {
+    display: flex;
+    width: 100rem;
+    height: 5rem;
+    justify-content: flex-end;
+    margin-left: 0rem;
+    margin-right: 5rem;
+
+}
+
+.itens {
+    margin-right: 1.5rem;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.itens:hover {
+    color: #78c4f7;
+    text-decoration: none;
+
+}
+
+.itens1 {
+    margin-right: 1.5rem;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #78c4f7;
+    text-decoration: underline;
+
+}
+
+
+
+
+.container-logo {
+    justify-content: center;
+    display: flex;
+
+    width: 62rem;
+    height: 12rem;
+    margin-top: 1rem;
+
+}
+
+.container-front {
+    justify-content: center;
+    display: flex;
+    width: 50rem;
+    height: 5rem;
+    margin-left: 4rem;
+    margin-top: -5rem;
+
+}
+
+.front {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 47px;
+    margin-top: 0.4rem;
+
+    background: linear-gradient(90.03deg, #FCFDFF -2.79%, #1BDBCF 95.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.nome {
+    display: flex;
+    font-size: 6rem;
+    margin-top: -2rem;
+    background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    line-height: 144px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container-texto {
+    display: flex;
+
+    width: 40rem;
+    height: 10rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0a0a0a;
+
+}
+
+.container-saiba {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 74px;
+    background: linear-gradient(180deg, #1E3774 0%, rgba(37, 33, 33, 0.64) 100%);
+    border-radius: 19px;
+    margin-left: 10rem;
+    margin-top: 4rem;
+
+
+
+}
+
+
+.saiba {
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container-imagem {
+    display: flex;
+
+    width: 31rem;
+    height: 50rem;
+    margin-top: -30rem;
+    margin-left: 59rem;
+    margin-bottom: 0%;
+
+
+
+
+
+}
+
+.imagem {
+    width: 639px;
+    height: 651px;
+    margin-top: 12.5rem;
+    margin-left: 1rem;
+    background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%);
+
+
+
+}
+
+.container-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -9rem;
+    height: 8rem;
+    margin-left: 1rem;
+
+}
+
+.icons {
+    margin-right: 2rem;
+
+}
+
+@media screen and (max-width:900px) {
+    body {
+        
+        background: linear-gradient(180deg, rgba(30, 55, 116, 0.96) 0%, #FFFFFF 100%);
+        margin-top: 0rem;
+        margin-left: 0rem;
+
+    }
+
+    .container-nav {
+        display: flex;
+       
+        justify-content: flex-start;
+        max-width: 30rem;
+        margin-left: 0rem;
+       
+
+
+    }
+
+    .itens {
+        display: flex;
+    }
+
+    .itens:hover {}
+
+    .itens1 {
+        display: flex;
+    }
+
+
+
+
+    .container-logo {
+        display: flex;
+        justify-content: center;
+       
+        margin-top: 3rem;
+        margin-left: 0rem;
+        max-width: 30rem;
+        
+        
+
+       
+
+
+
+
+    }
+
+    .container-front {
+        display: flex;
+        
+        margin-top: -8rem;
+        margin-left: 0rem;
+        
+        max-width: 30rem;
+        
+    }
+
+    .front {
+        font-size: 1.3rem;
+
+    }
+  
+    .nome {
+        font-size: 3rem;
+    }
+    .container-imagem {
+        display: flex;
+        height: 10rem;
+        width: 20rem;
+        margin-top: -30rem;
+        margin-left: 5rem;
+        
+       
+    }
+
+    .imagem {
+        display: flex;
+        height: 10rem;
+        width: 10rem;
+        margin-top: 0rem;
+        border-radius: 10rem;
+        margin-left: 5rem;
+        background-color: #474646;
+      
+    }
+
+
+
+    .container-texto {
+        display: flex;
+        margin-top: 10rem;
+        margin-left: 0.5rem;
+        width: 30rem;
+        font-size: 18px;
+     
+
+    }
+
+    .container-saiba {
+        display: flex;
+        margin-left: 1rem;
+    }
+
+
+    .saiba {
+        display: flex;
+    }
+
+   
+
+    .container-icons {
+        display: flex;
+        margin-top: 24rem;
+
+    }
+
+    .icons {
+        display: flex;
+        height: 5.5rem;
+    }
+}
